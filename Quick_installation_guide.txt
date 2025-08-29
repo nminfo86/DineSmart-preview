@@ -5,7 +5,7 @@ eatSmartly V2.2 Installation – Quick Guide
 - Operating System: Windows 10 (64-bit)
 - Processor: Intel Core i3 or higher
 - RAM: 4 GB minimum
-- Storage: 15 GB free on D: partition (SSD recommended)
+- Storage: 128 GB SSD with 15GB free on D: partition
 - Display: Touchscreen PC recommended
 - Network: Local LAN / Wi-Fi for QR Menu
 - Printer: ESC/POS receipt printer (optional)
