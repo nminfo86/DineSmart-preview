@@ -1,0 +1,47 @@
+
+eatSmartly Installation – Quick Guide
+
+⚠ Minimum Requirements:
+- Operating System: Windows 10 (64-bit)
+- Processor: Intel Core i3 or higher
+- RAM: 4 GB minimum
+- Storage: 15 GB free on D: partition (SSD recommended)
+- Display: Touchscreen PC recommended
+- Network: Local LAN / Wi-Fi for QR Menu
+- Printer: ESC/POS receipt printer (optional)
+- Supported Environment: PHP 8.1 and MySQL 8.0
+
+⚠ Important:
+
+- Ensure you have a D: partition with at least 15 GB free.
+- Run all installers as Administrator.
+- Download and install WampServer 3.3.0 (64-bit) from one of the following:
+  • Official SourceForge (recommended):
+    https://sourceforge.net/projects/wampserver/files/WampServer%203/WampServer%203.3.0/
+	
+  • Google Drive mirror (pre-named Step_2_wampserver3.3.0_x64.exe):
+    https://drive.google.com/file/d/1oYtoVQznO1RE_fozsleeQdnyxoH84BiL/view?usp=sharing
+
+Steps:
+
+1) Install Dependencies
+
+- Run Step_1_eatSmartly_Dependencies.exe as Administrator.
+- Wait until installation completes.
+
+2) Install WampServer
+
+- Install WampServer 3.3.0 (64-bit) to D:\wamp64 (default settings).
+- Start WampServer (pink “W” icon → tray icon must turn green).
+- Switch PHP to version 8.1.13. (Left-click the green Wamp tray icon → PHP → Version → 8.1.13 )
+- Wait again until tray icon is green.
+  Remark: This is a one-time step. After eatSmartly is fully installed, 
+  WampServer will auto-start with Windows. You do not need to launch it manually.
+
+3) Install Configuration
+
+- Run Step_3_eatSmartly_Configuration.exe as Administrator with (default settings).
+- Launch eatSmartly from desktop shortcut.
+- On first run, complete License Activation (send code → enter activation key).
+
+✅ Installation finished. eatSmartly is ready to use.
