@@ -1,5 +1,5 @@
 
-eatSmartly Installation – Quick Guide
+eatSmartly V2.2 Installation – Quick Guide
 
 ⚠ Minimum Requirements:
 - Operating System: Windows 10 (64-bit)
@@ -15,7 +15,7 @@ eatSmartly Installation – Quick Guide
 
 - Ensure you have a D: partition with at least 15 GB free.
 - Run all installers as Administrator.
-- Download and install WampServer 3.3.0 (64-bit) from one of the following:
+- Download and install "WampServer 3.3.0 (64-bit)" from one of the following:
   • Official SourceForge (recommended):
     https://sourceforge.net/projects/wampserver/files/WampServer%203/WampServer%203.3.0/
 	
