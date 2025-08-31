@@ -5,7 +5,7 @@ eatSmartly V2.2 Installation – Quick Guide
 - Operating System: Windows 10 (64-bit)
 - Processor: Intel Core i3 or higher
 - RAM: 4 GB minimum
-- Storage: 128 GB SSD with 15GB free on D: partition
+- Storage: 128 GB SSD with 15Gb free on D: partition
 - Display: Touchscreen PC recommended
 - Network: Local LAN / Wi-Fi for QR Menu
 - Printer: ESC/POS receipt printer (optional)
@@ -13,15 +13,9 @@ eatSmartly V2.2 Installation – Quick Guide
 
 ⚠ Important:
 
+- Ensure you have Administration rights on your Win 10. 
 - Ensure you have a D: partition with at least 15 GB free.
 - Run all installers as Administrator.
-- Download and install "WampServer 3.3.0 (64-bit)" from one of the following:
-
-  • Official SourceForge (recommended):
-    https://sourceforge.net/projects/wampserver/files/WampServer%203/WampServer%203.3.0/
-	
-  • Google Drive mirror (pre-named Step_2_wampserver3.3.0_x64.exe):
-    https://drive.google.com/file/d/1oYtoVQznO1RE_fozsleeQdnyxoH84BiL/view?usp=sharing
 
 Steps:
 
@@ -32,8 +26,9 @@ Steps:
 
 2) Install WampServer
 
-- Install WampServer 3.3.0 (64-bit) to D:\wamp64 (default settings).
-- Start WampServer (pink “W” icon → tray icon must turn green).
+- Run Step_2_wampserver3.3.0_x64.exe as Administrator. 
+- Install to D:\wamp64 path then, let avery thing else on default settings.
+- When finished Start WampServer (pink “W” icon → tray icon must turn green).
 - Switch PHP to version 8.1.13. (Left-click the green Wamp tray icon → PHP → Version → 8.1.13 )
 - Wait again until tray icon is green.
   Remark: This is a one-time step. After eatSmartly is fully installed, 
