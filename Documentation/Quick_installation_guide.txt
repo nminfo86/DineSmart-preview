@@ -41,7 +41,7 @@ Step 2 – Install WampServer
     . upload_max_filesize → choose 64M
     . post_max_size → choose 64M
    
-6. Add PHP & MySQL to PATH:
+6. Add PHP & MySQL to System PATH:
    - D:\wamp64\bin\php\php8.1.13\
    - D:\wamp64\bin\mysql\mysql8.0.31\bin\
 
