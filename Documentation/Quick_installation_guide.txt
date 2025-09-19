@@ -1,0 +1,89 @@
+DineSmart v2.3 – Quick Installation Guide
+
+⚠ System Requirements
+
+- OS: Works on any operating system with PHP 8.1 and MySQL 8.0 (Windows, Linux, macOS).
+  💡 Hint: We recommend Windows 10 (64-bit) for easier installation and setup, especially for non-technical users.
+- PHP: 8.1.13
+- MySQL: 8.0.31
+  
+⚠ HARDWARE Requierements:
+
+- CPU: Intel Core i3 or higher
+- RAM: 4 GB minimum
+- Storage: 128 GB SSD with D:/ 15Gb partition (recommended)
+- Display: Touchscreen PC preferred
+- Network: Local LAN / Wi-Fi (if used feature "Customer ordering using QR Menu")
+
+- Printer: ESC/POS receipt printer (optional)
+
+------------------------------------------
+Step 1 – Install Dependencies
+------------------------------------------
+Install the latest Microsoft Visual C++ Redistributable (2022, x64):
+https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist
+
+------------------------------------------
+Step 2 – Install WampServer
+------------------------------------------
+1. Download WampServer 3.3.0 (64-bit) from:
+   https://sourceforge.net/projects/wampserver/files/WampServer%203/WampServer%203.3.0/
+
+2. Install to D:\wamp64 (preferred) and let the next steps on default settings.
+
+3. Start WampServer → tray icon must turn green.
+
+4. Switch PHP to version 8.1.13:
+   Wamp tray icon → PHP → Version → 8.1.13
+
+5. Increase PHP upload limits (via Wamp tray)
+   Wamp tray icon → PHP → PHP Settings
+    . upload_max_filesize → choose 64M
+    . post_max_size → choose 64M
+   
+6. Add PHP & MySQL to PATH:
+   - D:\wamp64\bin\php\php8.1.13\
+   - D:\wamp64\bin\mysql\mysql8.0.31\bin\
+
+7. Make Apache & MySQL services auto-start:
+   - Open Services (Win+S → services).
+   - Set 'wampapache64' and 'wampmysqld64' to Automatic.
+   
+
+------------------------------------------
+Step 3 – Install DineSmart
+------------------------------------------
+1. Create folder: D:\wamp64\www\dinesmart
+2. Copy all source files into this folder.
+3. Open browser → http://localhost/dinesmart/setup.php
+4. Enter MySQL credentials (default: root with no password).
+5. Click Install. Installer will:
+   - Import emptyDatabase.sql
+   - Update config files  
+   - create a shortcut in desktop
+6. Success → green message. Error → red message (read and solve, if can't contact support).
+
+------------------------------------------
+Step 4 – First Launch
+------------------------------------------
+
+
+1. Open DineSmart via desktop shortcut or http://localhost/dinesmart
+2. Default login:
+		Username: admin
+		Password: 1234
+3. Update company info in Settings → Company. 
+4. Add categories, items, and printers under Settings.
+
+For more details, please refer to product user manual
+
+------------------------------------------
+Notes
+------------------------------------------
+- Works 100% offline after installation.
+- Printers are optional , can work without printer, 
+- If Printer is needed then, the system support single USB or multiple Ethernet printers.
+- QR Menu works over local LAN/Wi-Fi, no internet required.
+- For support, contact us on envato plateform or by email: supp.dinesmart@gmail.com
+
+✅ DineSmart is now ready to use.
